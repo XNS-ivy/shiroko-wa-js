@@ -1,0 +1,26 @@
+{
+  "name": "shiroko-wa",
+  "version": "1.0.0",
+  "description": "this is a whatsapp bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XNS-ivy/shiroko-wa-js.git"
+  },
+  "author": "XNS-ivy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XNS-ivy/shiroko-wa-js/issues"
+  },
+  "homepage": "https://github.com/XNS-ivy/shiroko-wa-js#readme",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "dotenv": "^16.4.7",
+    "mongodb": "^6.12.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
