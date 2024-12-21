@@ -54,7 +54,8 @@ const connectionLogic = async () => {
 
         // Handle new or incoming messages
         sock.ev.on("messages.upsert", async (messages) => {
-            console.log("New messages received:", await messages);
+            if(!messages.messages[0]) return 0
+            console.log(messages.messages[0])
         });
 
         // Handle credentials updates (save them in MongoDB)
